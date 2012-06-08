@@ -1,7 +1,7 @@
 #!/bin/bash
 # You should run this script as ROOT
 
-PROJECT_NAME="monitor"
+PROJECT_NAME="sentry"
 SCRIPT_DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
 
 apt-get install -q -y $(< apt-requirements.txt)
@@ -48,7 +48,7 @@ if [ ! -d /usr/share/fonts/vista ]; then
 	fc-cache -vf
 fi
 
-mkdir -p /opt/var/log /opt/var/pid /opt/graphite
+mkdir -p /opt/var/log /opt/var/pid
 chown www-data:www-data /opt/var /opt/var/log /opt/var/pid /opt/var/pid
 
 # mkvirtualenv -r /opt/monitor/requirements.txt monitor

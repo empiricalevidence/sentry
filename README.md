@@ -2,6 +2,5 @@ Install
 =======
 
     sudo ./install.sh
-    sudo chown -R <YOUR USER> /opt/graphite
-    workon monitor
+    workon sentry
     ./post-install.sh

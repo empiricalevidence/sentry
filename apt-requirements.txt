@@ -1,1 +1,2 @@
-python-cairo-dev
+libevent-dev
+unzip
