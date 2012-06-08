@@ -13,7 +13,6 @@ django-picklefield==0.2.1
 django-templatetag-sugar==0.1
 gunicorn==0.13.4
 httpagentparser==1.0.5
-importlib==1.0.2
 kombu==2.1.8
 logan==0.3.0
 ordereddict==1.1
@@ -25,3 +24,5 @@ sentry==4.5.7
 simplejson==2.4.0
 wsgiref==0.1.2
 gevent==0.13.7
+# Only necessary for python 2.6
+# importlib==1.0.2
