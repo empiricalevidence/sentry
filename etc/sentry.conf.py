@@ -39,9 +39,11 @@ SENTRY_WEB_OPTIONS = {
 #  https://docs.djangoproject.com/en/1.3/topics/email/?from=olddocs#e-mail-backends
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST = 'smtp.elasticemail.com'
-EMAIL_HOST_USER = 'e98cuenc@gmail.com'
-EMAIL_HOST_PASSWORD = '7867d780-78b7-403f-a9af-c73e21ffb072'
-EMAIL_PORT = 2525
-EMAIL_USE_TLS = True
+#EMAIL_HOST = 'smtp.elasticemail.com'
+#EMAIL_HOST_USER = 'e98cuenc@gmail.com'
+#EMAIL_HOST_PASSWORD = '7867d780-78b7-403f-a9af-c73e21ffb072'
+#EMAIL_PORT = 2525
+#EMAIL_USE_TLS = True
+EMAIL_HOST = 'localhost'
+EMAIL_PORT = 25
 FROM_ADDRESS = 'Sentry <questions@thumbr.it>'
