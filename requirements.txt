@@ -7,22 +7,27 @@ anyjson==0.3.1
 celery==2.5.5
 cssutils==0.9.10b1
 django-celery==2.5.5
+django-crispy-forms==1.2.1
 django-indexer==0.3.0
 django-paging==0.2.4
 django-picklefield==0.2.1
+django-social-auth==0.7.10
+django-social-auth-trello==1.0.2
 django-templatetag-sugar==0.1
+gevent==0.13.7
+greenlet==0.4.0
 gunicorn==0.13.4
 httpagentparser==1.0.5
+httplib2==0.7.7
 kombu==2.1.8
 logan==0.3.0
+oauth2==1.5.211
 ordereddict==1.1
 pynliner==0.4.0
 python-dateutil==1.5
+python-openid==2.2.5
 pytz==2012c
-raven==1.9.2
-sentry==4.5.7
+raven==2.0.10
+sentry==5.0.21
 simplejson==2.4.0
 wsgiref==0.1.2
-gevent==0.13.7
-# Only necessary for python 2.6
-# importlib==1.0.2
