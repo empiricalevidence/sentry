@@ -26,7 +26,7 @@ SENTRY_PUBLIC = True
 # but proxies may interfere with this.
 SENTRY_URL_PREFIX = 'http://sentry.empirical-evidence.com'  # No trailing slash!
 
-SENTRY_WEB_HOST = '0.0.0.0'
+SENTRY_WEB_HOST = '127.0.0.1'
 SENTRY_WEB_PORT = 9005
 SENTRY_WEB_OPTIONS = {
     'workers': 3,  # the number of gunicorn workers
