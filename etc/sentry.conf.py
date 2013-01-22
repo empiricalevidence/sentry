@@ -10,8 +10,8 @@ DATABASES = {
         # ``django.db.backends.postgresql_psycopg2``
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'sentry',
-        'USER': 'root',
-        'PASSWORD': 'root',
+        'USER': 'writer',
+        'PASSWORD': '3EFG0g5si1eSHEyklC7d',
         'HOST': 'localhost',
         'PORT': '3306',
     }
