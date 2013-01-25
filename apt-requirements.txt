@@ -1,2 +1,4 @@
 libevent-dev
+# https://help.ubuntu.com/community/PostfixBasicSetupHowto
+postfix
 unzip
