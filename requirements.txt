@@ -6,7 +6,7 @@ amqp==1.0.5
 amqplib==1.0.2
 anyjson==0.3.3
 billiard==2.7.3.18
-celery==3.0.12
+celery==5.2.2
 cssutils==0.9.10b1
 django-celery==3.0.11
 django-crispy-forms==1.2.1
